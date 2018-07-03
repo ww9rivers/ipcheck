@@ -5,10 +5,11 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.set('view engine', 'pug');
 
 app.get('/', (req, res) => {
     let xip = req.ip.replace(/^::ffff:/, '')
-    res.json({
+    res.render('index', {
 	IP: xip,
 	browser: req.headers['user-agent']
     })
