@@ -17,3 +17,7 @@ $ webpack
 ```
 
 That builds the `dist/server/ipcheck.js` bundle, minified, ready to be deployed to a production server.
+
+# Author
+
+Wei Wang <WW@9Rivers.com>
