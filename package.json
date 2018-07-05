@@ -1,22 +1,22 @@
 {
-    "name": "ipcheck",
-    "version": "1.0.0",
-    "description": "A simple app to report client IP address.",
-    "main": "index.js",
-    "scripts": {
-	"build": "webpack",
-	"start": "node ./index.js",
-	"test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-	"IP",
-	"check"
-    ],
-    "author": "Wei Wang <weiwang@umich.edu>",
-    "license": "MIT",
-    "dependencies": {
-	"express": "^4.16.3",
-	"pug": "^2.0.3"
-    },
-    "devDependencies": {}
+   "name": "ipcheck",
+   "version": "1.0.0",
+   "description": "A simple app to report client IP address.",
+   "main": "index.js",
+   "scripts": {
+      "build": "webpack",
+      "start": "node ./index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [
+       "check",
+       "IP",
+       "network"
+   ],
+   "author": "Wei Wang <weiwang@umich.edu>",
+   "license": "MIT",
+   "dependencies": {
+      "express": "^4.16.3"
+   },
+   "devDependencies": {}
 }
