@@ -3,8 +3,8 @@
 To use the code (assuming that node.js and npm are installed):
 
 ```shell
-$ git clone <this-git-repo>
-$ cd ipcheck.js
+$ git clone <this-git-repo> ipcheck
+$ cd ipcheck
 $ npm install
 $ node index.js
 ```
