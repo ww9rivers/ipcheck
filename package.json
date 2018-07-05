@@ -13,7 +13,7 @@
        "IP",
        "network"
    ],
-   "author": "Wei Wang <weiwang@umich.edu>",
+   "author": "Wei Wang <WW@9Rivers.com>",
    "license": "MIT",
    "dependencies": {
       "express": "^4.16.3"
