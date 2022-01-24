@@ -25,8 +25,8 @@ An optional configuration file, ```ipcheck-config.json``` is added to allow subn
 ```json
 {
 	"subnets": [
-		{ "subnet": "_IPv4-CIDR/range-1_",	"name": "_Subnet-name-1_"	},
-		{ "subnet": "_IPv4-CIDR/range-2_",	"name": "_Subnet-name-2_"	}
+		{ "subnet": "10.20.192.0/19",	"name": "Subnet-name-1"	},
+		{ "subnet": "11.22.160.0/19",	"name": "Subnet-name-2"	}
 	]
 }
 ```
